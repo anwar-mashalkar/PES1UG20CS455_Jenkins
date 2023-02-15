@@ -17,6 +17,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deployment Successful by Jenkins'
+                echos 'Hello World'
             }
         }
     }
